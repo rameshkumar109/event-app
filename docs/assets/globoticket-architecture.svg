@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2; rx: 16; }
+      .title { font: 700 18px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .label { font: 14px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .muted { font: 12px 'Segoe UI', Arial, sans-serif; fill: #475569; }
+      .group { fill: #f8fafc; stroke: #e2e8f0; stroke-width: 2; rx: 22; }
+      .arrow { stroke: #1f2937; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6" fill="#1f2937" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#f1f5f9" />
+
+  <!-- Client group -->
+  <rect class="group" x="40" y="60" width="360" height="260" />
+  <text class="title" x="60" y="95">Client</text>
+  <rect class="box" x="70" y="120" width="300" height="90" />
+  <text class="label" x="90" y="155">React Frontend</text>
+  <text class="muted" x="90" y="178">Login · Register · Events</text>
+  <rect class="box" x="110" y="225" width="220" height="70" />
+  <text class="label" x="135" y="260">LocalStorage</text>
+  <text class="muted" x="135" y="280">JWT Token</text>
+
+  <!-- Backend group -->
+  <rect class="group" x="430" y="60" width="360" height="380" />
+  <text class="title" x="450" y="95">Backend</text>
+  <rect class="box" x="460" y="120" width="300" height="90" />
+  <text class="label" x="490" y="155">Flask API</text>
+  <text class="muted" x="490" y="178">/auth · /events · /cities</text>
+  <rect class="box" x="470" y="230" width="280" height="75" />
+  <text class="label" x="495" y="262">Auth Service</text>
+  <text class="muted" x="495" y="282">SQLAlchemy + JWT</text>
+  <rect class="box" x="470" y="320" width="280" height="75" />
+  <text class="label" x="495" y="352">City Service</text>
+  <text class="muted" x="495" y="372">GeoNames + Fallback</text>
+
+  <!-- Data group -->
+  <rect class="group" x="430" y="460" width="360" height="180" />
+  <text class="title" x="450" y="495">Data</text>
+  <rect class="box" x="470" y="520" width="280" height="90" />
+  <text class="label" x="505" y="555">Users DB</text>
+  <text class="muted" x="505" y="575">SQLite / PostgreSQL</text>
+
+  <!-- External group -->
+  <rect class="group" x="820" y="60" width="340" height="580" />
+  <text class="title" x="840" y="95">External Services</text>
+  <rect class="box" x="850" y="120" width="280" height="70" />
+  <text class="label" x="875" y="155">Ticketmaster API</text>
+  <rect class="box" x="850" y="210" width="280" height="70" />
+  <text class="label" x="875" y="245">PredictHQ API</text>
+  <rect class="box" x="850" y="300" width="280" height="70" />
+  <text class="label" x="875" y="335">GeoNames API</text>
+  <rect class="box" x="850" y="390" width="280" height="70" />
+  <text class="label" x="875" y="425">Google OAuth</text>
+
+  <!-- Arrows -->
+  <line class="arrow" x1="370" y1="165" x2="460" y2="165" />
+  <line class="arrow" x1="370" y1="260" x2="460" y2="260" />
+
+  <line class="arrow" x1="760" y1="160" x2="850" y2="155" />
+  <line class="arrow" x1="760" y1="160" x2="850" y2="245" />
+  <line class="arrow" x1="750" y1="352" x2="850" y2="335" />
+  <line class="arrow" x1="750" y1="255" x2="610" y2="520" />
+
+  <line class="arrow" x1="610" y1="305" x2="610" y2="520" />
+  <line class="arrow" x1="760" y1="425" x2="430" y2="165" />
+  <line class="arrow" x1="430" y1="165" x2="110" y2="260" />
+</svg>

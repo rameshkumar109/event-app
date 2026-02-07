@@ -1,0 +1,3 @@
+@import './Login.css';
+
+.gt-success{background:rgba(40,200,120,0.12);padding:8px;border-radius:8px;color:#dfffe8;margin-bottom:8px}

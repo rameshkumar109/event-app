@@ -31,7 +31,7 @@ export default function Events() {
       <header className="events-topbar">
         <div className="events-brand">
           <span className="events-brand-dot" />
-          GloboTicket
+          event-app
         </div>
         <button className="events-logout" type="button" onClick={handleLogout}>
           Log out
@@ -39,7 +39,7 @@ export default function Events() {
       </header>
 
       <div className="app-header">
-        <h1>🎫 GloboTicket</h1>
+        <h1>🎫 event-app</h1>
         <p>Discover amazing events near you</p>
       </div>
 

@@ -1,4 +1,4 @@
--- Create users table for GloboTicket auth
+-- Create users table for event-app auth
 -- Create application schema if not exists
 CREATE SCHEMA IF NOT EXISTS booking_app;
 

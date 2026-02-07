@@ -1,4 +1,4 @@
-# GloboTicket Application Functionality
+# event-app Application Functionality
 
 This document explains what the application does from a user and system point of view.
 

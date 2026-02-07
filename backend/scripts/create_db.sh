@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Simple helper to create Postgres DB and run init SQL
 # Usage: ./create_db.sh <database_url>
-# Example: ./create_db.sh postgresql://user:pass@localhost:5432/globoticket
+# Example: ./create_db.sh postgresql://user:pass@localhost:5432/event-app
 
 set -euo pipefail
 DB_URL=${1:-}

@@ -35,7 +35,7 @@ FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:3000")
 @app.route("/")
 def home():
     return {
-        "message": "GloboTicket Backend Running",
+        "message": "event-app Backend Running",
         "available_endpoints": {
             "events": "GET /events?city=<city>&source=all",
             "countries": "GET /countries or /countries?search=<letter>",
@@ -48,7 +48,7 @@ def home():
 @app.route("/health", methods=["GET"])
 def health():
     """Health check endpoint"""
-    return {"status": "healthy", "service": "GloboTicket Backend"}
+    return {"status": "healthy", "service": "event-app Backend"}
 
 
 @app.route("/events", methods=["GET"])

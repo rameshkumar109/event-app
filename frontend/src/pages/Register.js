@@ -44,14 +44,14 @@ export default function Register() {
     <div className="gt-login-root">
       <header className="gt-topbar">
         <div className="brand-pill">
-          <span className="brand-dot" /> GloboTicket
+          <span className="brand-dot" /> event-app
         </div>
       </header>
 
       <div className="gt-login-card">
         <div className="card-header">
           <h2>Create account</h2>
-          <p>Register a new GloboTicket account.</p>
+          <p>Register a new event-app account.</p>
         </div>
 
         <form className="login-form" onSubmit={handleSubmit}>

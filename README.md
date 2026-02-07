@@ -1,6 +1,6 @@
-# GloboTicket App
+# event-app App
 
-GloboTicket is an event discovery web app with a React frontend and a Flask backend. It aggregates events from multiple sources (Ticketmaster, BookMyShow mock, PredictHQ), provides email/password auth, optional Google OAuth, and city suggestions based on external data.
+event-app is an event discovery web app with a React frontend and a Flask backend. It aggregates events from multiple sources (Ticketmaster, BookMyShow mock, PredictHQ), provides email/password auth, optional Google OAuth, and city suggestions based on external data.
 
 **Quick Start (Dev)**
 

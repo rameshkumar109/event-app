@@ -9,21 +9,21 @@ This project ships with a simple auth service using SQLAlchemy. By default it us
    ```bash
    sudo -u postgres psql
    CREATE USER gt_user WITH PASSWORD 'strongpassword';
-   CREATE DATABASE globoticket;
-   GRANT ALL PRIVILEGES ON DATABASE globoticket TO gt_user;
+   CREATE DATABASE event-app;
+   GRANT ALL PRIVILEGES ON DATABASE event-app TO gt_user;
    \q
    ```
 
 2. Initialize schema using the provided script (you can also run the SQL file manually):
 
    ```bash
-   ./scripts/create_db.sh postgresql://gt_user:strongpassword@localhost:5432/globoticket
+   ./scripts/create_db.sh postgresql://gt_user:strongpassword@localhost:5432/event-app
    ```
 
 3. Set environment variables before starting the backend (prefer `backend/.env`):
 
    ```bash
-   export AUTH_DATABASE_URL="postgresql://postgres:postgres@localhost:5432/globoticket?currentSchema=booking_app"
+   export AUTH_DATABASE_URL="postgresql://postgres:postgres@localhost:5432/event-app?currentSchema=booking_app"
    export SECRET_KEY="replace-with-strong-secret"
    export JWT_EXP_MINUTES=60
    export FLASK_SECRET_KEY="replace-with-strong-secret"

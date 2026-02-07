@@ -1,4 +1,4 @@
-# GloboTicket Technical Stack
+# event-app Technical Stack
 
 This document summarizes the main technologies and libraries used in the project.
 

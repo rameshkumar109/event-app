@@ -58,7 +58,7 @@ export default function Login({ errorOverride = "" }) {
       {/* fixed header brand so site name is always visible */}
       <header className="gt-topbar">
         <div className="brand-pill">
-          <span className="brand-dot" /> GloboTicket
+          <span className="brand-dot" /> event-app
         </div>
       </header>
 
@@ -84,7 +84,7 @@ export default function Login({ errorOverride = "" }) {
       <div className="gt-login-card">
         <div className="card-header">
           <h2>Sign in</h2>
-          <p>Use your GloboTicket account to continue.</p>
+          <p>Use your event-app account to continue.</p>
         </div>
 
         <form className="login-form" onSubmit={handleSubmit}>

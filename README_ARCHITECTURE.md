@@ -1,4 +1,4 @@
-# GloboTicket Architecture Diagram
+# event-app Architecture Diagram
 
 Below is a high‑level architecture diagram describing how the frontend, backend, and external services interact.
 
